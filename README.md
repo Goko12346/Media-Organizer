@@ -63,7 +63,7 @@ The **Media Organizer App** is a powerful and user-friendly tool for organizing 
 3. Run the app:
 
    ```bash
-   python media_organizer.py
+   python main.py
 
 
 ## Usage
