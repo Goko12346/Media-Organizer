@@ -10,7 +10,7 @@ import numpy as np
 class MediaOrganizerApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Media Organizer")
+        self.root.title("Media-Organizer")
         self.root.geometry("500x400")  # Fixed size for the window
 
         self.media_files = []
