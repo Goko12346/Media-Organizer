@@ -18,7 +18,11 @@ class MediaOrganizerApp:
         self.current_file_index = 0
         self.max_undo_stack = 20
 
-        self.sorted_folders_path = os.path.join(os.getcwd(), "Sorted_Media")
+        sorted_folder_name = "./Sorted_Media"
+        if not os.path.exists(sorted_folder_name):
+            os.makedirs(sorted_folder_name)
+
+        self.sorted_folders_path = os.path.join(os.getcwd(), sorted_folder_name)
         self.media_folder = None
         self.video_capture = None
         self.video_frame = None
