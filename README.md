@@ -53,7 +53,7 @@ The **Media Organizer App** is a powerful and user-friendly tool for organizing 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-repo/MediaOrganizer.git
+   git clone https://github.com/Goko12346/Media-Organizer.git
 
 2. Install the required libraries:
 
